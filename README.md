@@ -1,5 +1,7 @@
 BooruPlus
 =========
+Download Here: https://raw.github.com/JustJustin/BooruPlus/master/booruplus@justjustin.user.js
+
 BooruPlus is a userscript for the popular imageboard Danbooru that adds several new features.
 
 URL Shortening:
