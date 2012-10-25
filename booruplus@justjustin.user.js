@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @id             BooruPlus@JustJustin
 // @name           BooruPlus
 // @version        .1
