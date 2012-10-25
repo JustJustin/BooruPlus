@@ -233,8 +233,9 @@ $base.extend(BooruPlus, {
 			console.log("Selected Pool " + this.currentPool);
 		},
 		browseClick: function(e) {
+			var _this = BooruPlus.poolBrowse;
 			if(this.href.search('post') != -1) {
-				BooruPlus.poolBrowse.savePool(BooruPlus.poolBrowse.getID(this.parentNode));
+				_this.savePool(_this.getID(this.parentNode));
 			}
 		},
 		getID: function(pool) {
