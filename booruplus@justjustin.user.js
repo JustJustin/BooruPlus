@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @id             BooruPlus@JustJustin
 // @name           BooruPlus
-// @version        .1
+// @version        1.0
 // @namespace      JustJustin.BooruPlus
 // @author         JustJustin
 // @description    Provides key based pool navigation, url tag removal, and other shortcuts.
@@ -404,7 +404,7 @@ $base.extend(BooruPlus, {
 			var $li = $base.el('li', {});
 			var $el = $base.el('a', {
 				href: '#',
-				innerHTML: '� My Pools'
+				innerHTML: '» My Pools'
 			});
 			
 			$el.addEventListener('click', this.myClick);
