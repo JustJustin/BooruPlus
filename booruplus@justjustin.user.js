@@ -175,7 +175,7 @@ $base.extend(BooruPlus, {
 		init: function() {
 			//Add binds to << and >> page buttons if they exist.
 			var pagereg = /\/post\/index|\/pool\/index|\/pool\/show\/|\/post\?tags/;
-			if(pagereg.exec(location.pathname)) {
+			if(pagereg.exec(location.href)) {
 				console.log("Pagination Page");
 				var links = $$base('.pagination a');
 				for(var i = 0; i < links.length; ++i) {
